@@ -1,0 +1,100 @@
+body {
+    margin: 0px;
+}
+
+#header {
+    color: rgb(117, 117, 117);
+    font-size: 12px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+div span a {
+    display: inline-block;
+    padding: 10px;
+    padding-right: 5px;
+    color: rgb(117, 117, 117);
+    text-decoration: none;
+}
+
+div span a:hover {
+    text-decoration: underline;
+}
+
+#icon {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    width: 20px;
+    height: auto;
+}
+
+
+form {
+    position: relative;
+    position: absolute;
+    bottom: 35%;
+}
+
+form img {
+    width: 30%;
+    height: auto;
+    margin: auto;
+}
+
+#search {
+    width: 50%;
+    border-radius: 2px;
+    border: solid rgb(241, 241, 241) 1px;
+    box-shadow: 1px 1px rgb(175, 175, 175);
+    padding: 7px;
+    margin: 5px;
+    outline: none;
+    -webkit-transition: box-shadow 0.1s ease-out;
+    -moz-transition: box-shadow 0.1s ease-out;
+    -o-transition: box-shadow 0.1s ease-out;
+}
+
+#search:hover {
+    box-shadow: 2px 2px 2px rgb(175, 175, 175);
+    -webkit-transition: box-shadow 0.1s ease-in;
+    -moz-transition: box-shadow 0.1s ease-in;
+    -o-transition: box-shadow 0.1s ease-in;
+}
+
+#flex {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+#button {
+    border: solid 1px rgb(230, 230, 230);
+    background-color: rgb(235, 235, 235);
+    color: rgb(110, 110, 110);
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#button:hover {
+    border: solid 1px rgb(200, 200, 200);
+    background-color:rgb(240, 240, 240);
+    color: rgb(53, 53, 53);
+    
+}
+
+#footer {
+    background-color: rgb(241, 241, 241);
+    color: rgb(117, 117, 117);
+    font-size: 19px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-top: solid;
+    border-width: 1px;
+    border-top-color: rgb(175, 175, 175);
+}
